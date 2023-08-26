@@ -1,14 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tabuada</title>
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="./css/styles.css">
-  <script src="./js/scripts.js" defer></script>
-</head>
-<body>
-  
-</body>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabuada</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script src="./js/scripts.js" defer></script>
+  </head>
+  <body>
+    <h1>Digite o número e comfirme para gerar uma tabuada</h1>
+    <main id="main-container">
+      <form id="multiplication-form">
+        <div class="form-control">
+          <label for="number">Tabuada do:</label>
+          <input 
+            type="number" 
+            name="number" 
+            id="number" 
+            placeholder="1" 
+          />
+        </div>
+        <div class="form-control">
+          <label for="multiplicator">Multiplicar até:</label>
+          <input
+            type="number"
+            name="multiplicator"
+            id="multiplicator"
+            value="10"
+          />
+        </div>
+        <input type="submit" value="Calcular" />
+      </form>
+      <section id="multiplication-table">
+        <h2 id="multiplication-title">Tabuada do número <span></span></h2>
+        <div id="multiplication-operations">
+          <h3>Informe um número para calcular uma tabuada...</h3>
+          <div class="row">
+            <p class="operation">1 X 1 =</p>
+            <p class="result">5</p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
