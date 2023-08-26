@@ -68,7 +68,7 @@ main #multiplication-form {
 #multiplication-operations {
   background-color: #fff;
   max-width: 400px;
-  padding: 1rem;
+  padding: 2rem;
   margin: 1rem auto;
   border-radius: .5rem;
   display: flex;
@@ -79,7 +79,7 @@ main #multiplication-form {
   display: flex;
   justify-content: center;
   gap: .4rem;
-  padding: 2rem;
+  padding: 1rem;
   border: 1px solid #ccc;
   border-bottom: none;
   width: 180px;
