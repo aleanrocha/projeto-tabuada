@@ -32,7 +32,9 @@ form.addEventListener("submit", (e) => {
   e.preventDefault()
   const multiplicationNumber = +number.value
   const multiplicatorNumber = +multiplicator.value
-  if(!multiplicationNumber || !multiplicatorNumber)
+  if(!multiplicationNumber || !multiplicatorNumber) {
     alert("Preencha todos os campos!")
+    return
+  }
   createTemplate(multiplicationNumber, multiplicatorNumber)
 })
